@@ -27,7 +27,8 @@ def find_greater_pair(src)
   rows = 0 
   
   while rows < src.count do 
-    new_array.push("I love #{src[rows][0]} and #{src[rows][1]} on my pizza")
+    src[rows].sort
+    new_array.push(src[-1])
     rows+=1
   end
   return new_array
