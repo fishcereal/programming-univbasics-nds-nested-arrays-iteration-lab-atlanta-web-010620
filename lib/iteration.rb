@@ -12,7 +12,7 @@ def join_ingredients(src)
   # while rows < src.count do 
   #   new_array[rows] = "I love ${src[rows][0]} and ${src[rows][1]} on my pizza"
   #   rows+=1
-  # end
+  end
 
 def find_greater_pair(src)
   # src will be an array of [ [number1, number2], ... [numberN, numberM] ]
