@@ -14,6 +14,7 @@ def join_ingredients(src)
     new_array.push("I love #{src[rows][0]} and #{src[rows][1]} on my pizza")
     rows+=1
   end
+  return new_array
   
 end
 
